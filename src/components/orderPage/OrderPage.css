@@ -1,0 +1,88 @@
+#order-container{
+  margin-top : 8%;
+  box-sizing: border-box;
+  height : 100%;
+  padding: 0 4%;
+}
+#order-product-container{
+  width : 100%;
+  height : 80%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+#order-product-image-container{
+  flex-basis : 45%;
+  padding : 2%;
+  box-sizing: border-box;
+}
+
+#order-product-image{
+  width : 100%;
+  height : 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+#order-product-details{
+  flex-basis: 55%;
+  display : flex;
+  flex-direction: column;
+  padding : 2%;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#order-product-details > *{
+  margin-bottom: 4%;
+}
+
+#order-product-name{
+  font-size : 50px;
+  font-weight: 370;
+}
+
+#address-container{
+  display: flex;
+  width : 100%;
+  height : max-content;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items : center;
+}
+
+#address-container > *{
+  margin-top : 2%;
+}
+
+#address-select-container{
+  width : 100%;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#address-form{
+  display : flex;
+  /* background: chartreuse; */
+  flex-direction: column;
+  width : 30%;
+  justify-content: center;
+}
+
+#address-form > p{
+  text-align : center;
+}
+
+#address-form > *{
+  margin-bottom : 2%;
+}
+
+#stepper-btns{
+  /* background: brown; */
+  padding : 2% 0;
+  justify-content: center;
+}

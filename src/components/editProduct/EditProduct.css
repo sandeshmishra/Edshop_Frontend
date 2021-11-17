@@ -1,0 +1,17 @@
+#edit-form-container{
+  width : 100%;
+  margin-top: 2%;
+  height : 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#edit-form {
+  display: flex;
+  flex-direction: column;
+  width : 30%;
+  justify-content: space-between;
+  height: 80%;
+  box-sizing: border-box;
+}

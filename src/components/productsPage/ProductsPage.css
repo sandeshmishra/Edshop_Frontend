@@ -1,0 +1,58 @@
+#grid-container{
+  /* background-color: brown; */
+  /* margin-top: 5%; */
+  padding : 0 2%;
+}
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns-container{
+  display : flex;
+  justify-content: space-between;
+  width : 100%;
+}
+
+#toggle-btn-container{
+  width : 100%;
+  display : flex;
+  justify-content: center;
+  margin : 6% 0 2% 0;
+}
+
+#select-container{
+  width : 100%;
+  padding-left : 4%;
+  margin-bottom : 2%;
+  box-sizing : border-box;
+}
+
+#add-alert{
+  position: absolute;
+  top : 10%;
+  left : 75%;
+  z-index: 1000;
+}
+
+#edit-alert{
+  position: absolute;
+  top : 10%;
+  left : 75%;
+  z-index: 1000;
+}
+
+#delete-alert{
+  position: absolute;
+  top : 10%;
+  left : 75%;
+  z-index: 1000;
+}
+
+#order-alert{
+  position: absolute;
+  top : 10%;
+  left : 75%;
+  z-index: 1000;
+}
